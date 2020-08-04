@@ -1,0 +1,155 @@
+@media screen and (max-width:896px){
+
+    .menu-nav ul li{
+
+        display: inline-block;
+        margin: 5px;
+        
+        padding: 5px 10px;
+    }
+
+    .menu-nav ul li a{
+        text-transform: uppercase;
+        letter-spacing: 0px;
+    }
+    .menu{
+        float: right;
+        font-weight: 300;
+        font-size: 20px;
+      
+    }
+    .logo{
+   
+        width: 20%;
+        float: left;
+        padding-top: 2px;
+        margin: 30px 100px ;
+       
+    }
+
+    
+     .sliderContent h1{
+        font-size: 40px;
+        border: 1px solid white;
+        width: 300px;
+       display: inline-block;
+       text-transform: capitalize;
+       padding: 10px 10px;
+    }
+    .sliderContent h1 span{
+    color: orange;
+    }
+    .sliderContent h2{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .menu-nav ul li{
+
+        display: inline-block;
+        margin: 5px;
+        
+        padding: 5px 15px;
+    }
+    .con1{
+        max-width:40%;
+        float: left;
+        margin:15px;
+        text-align: justify;
+     
+        }
+
+        .serimg{
+             width: 45%;
+            display: inline;
+           margin-bottom: 10px;
+           margin: 0 20px;
+            }
+            
+            
+            .serimg img{
+               
+                width: 150px;
+                height:100px;
+               
+            }
+
+            /*Contact */
+
+            
+
+
+            .content1{
+
+                width:200px;
+                margin-left: 100px;
+                display: inline-block;
+                text-align: center;
+                border: 3px dashed black;
+                border-radius: 5px;
+
+                }
+
+
+                .content1 img{
+                
+                width: 40px;
+                height: 40px;
+                
+                }
+                    /*------------- Mesege---------------*/
+                .form-top{
+                    width: 50%;
+                    
+                    padding-right: 20px;
+                    
+                }
+
+                .form-bottom{
+
+                    width: 50%;
+                    
+                    
+                    
+                    }
+                    .form-bottom textarea{
+                      width: 80%;
+                        margin-top: 10px;
+                        height: 104px;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                    }
+
+}
+
+
+
+
+@media screen and (max-width:812px){
+
+    .menu-nav ul li{
+
+        display: inline-block;
+        margin: 5px;
+        
+        padding: 5px 10px;
+    }
+
+    .serimg{
+
+        width: 45%;
+       
+        margin: 10px;
+   
+     
+       }
+       
+       
+       .serimg img{
+           width: 150px;
+           height:100px;
+          
+       }
+
+       
+}

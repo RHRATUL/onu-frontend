@@ -1,0 +1,320 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+p{
+    line-height: 20px;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#headersection{
+
+    background:url(./Image/cver.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+   height: 500px;
+    margin-top: 5px;
+   
+}
+.container{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+}
+
+.slider{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 500px;
+}
+
+.logo{
+   
+    width: 20%;
+    
+    float: left;
+    padding-top: 2px;
+    margin-top: 30px;
+ 
+}
+.logo img{
+   border-radius: 50%;
+}
+
+.menu a{
+
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+
+.menu-nav{
+    
+    float: right;
+    margin-top: 30px;
+
+}
+
+.menu-nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+.menu-nav ul li{
+
+    display: inline-block;
+    margin: 10px;
+    
+    padding: 5px 10px;
+}
+
+.menu-nav ul li a:hover{
+color: orange;
+
+}
+.menu-nav ul li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu{
+    float: right;
+    font-weight: 300;
+    font-size: 20px;
+  
+}
+
+.sliderContent{
+   padding:200px 0;
+   text-align: center;
+    color: white;
+   
+}
+
+
+.sliderContent h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.sliderContent h1{
+    font-size: 70px;
+    border: 2px solid white;
+    width: 500px;
+   display: inline-block;
+   text-transform: capitalize;
+   padding: 10px 10px;
+}
+.sliderContent h1 span{
+color: orange;
+}
+.sliderContent h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#section-two{
+
+color: gray;
+}
+
+.text-content{
+text-align: center;
+
+padding: 10px ;
+max-width: 700px;
+margin: 40px auto 10px auto;
+}
+.text-content h1{
+    font-size: 35px;
+    color: black;
+}
+
+.icon-content{
+    margin-top: 50px;
+    
+}
+
+.icon-content h4{
+    text-align: center;
+}
+
+.con1{
+max-width: 20%;
+float: left;
+margin: 25px;
+
+text-align: justify;
+
+
+}
+.con1 img{
+   max-width: 80px;
+   max-height: 80px;
+    margin: 0 35%;
+    padding-bottom: 5px;
+}
+
+.con1 h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#third-section{
+background-color: whitesmoke;
+
+}
+
+
+.services-top{
+text-align: center;
+max-width: 700px;
+margin: 30px auto 15px auto;
+
+}
+
+.services-top h1{
+   padding-bottom: 20px;
+   color: black;
+   font-size: 30px;
+}
+
+
+.services-top p{
+color: gray;
+font-weight: 500;
+}
+
+.servives-img{
+margin-top: 40px;
+
+}
+
+.serimg{
+width: 23%;
+display: inline;
+margin: 15px;
+
+}
+
+
+.serimg img{
+   
+    width: 250px;
+    height: 200px;
+}
+
+/*----------------Contact us ------------*/
+
+
+.contact-top{
+
+    text-align:  center;
+    max-width: 700px;
+    margin: 50px auto;
+   
+
+}
+
+.contact-top h2{
+    padding-bottom: 20px;
+}
+
+
+
+.content1{
+
+width:30%;
+margin: 10px;
+display: inline-block;
+text-align: center;
+}
+.content1 img{
+
+width: 110px;
+height: 110px;
+
+}
+
+/*-----------Mesege Option-------------*/
+.input-from{
+height: 500px;
+margin-top: 40px;
+width: 100%;
+margin: 20px;
+
+}
+
+.form-top{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    
+}
+
+.form-top input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.form-bottom{
+
+width: 50%;
+
+float: right;
+
+}
+.form-bottom textarea{
+    width: 95%;
+    margin-top: 10px;
+    height: 104px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-bottom input[type='submit']{
+    border: 1px solid black;
+   
+    padding: 10px;
+    margin-top: 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-bottom input[type='submit']:hover{
+    background-color: orange;
+}
+
+#socialicon{
+background-color: orange;
+padding: 20px 0;
+text-align: center;
+font-size: 30px;
+}
+
+.icon i{
+color: black;
+margin: 10px ;
+}
+
+#footer{
+    background-color: black;
+    height: 50px;
+}
+.footercontent {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
